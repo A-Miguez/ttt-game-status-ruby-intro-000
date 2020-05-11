@@ -28,7 +28,8 @@ def won?(board)
     position_3 = board[win_index_2]
 
     if position_1 == position_2 && position_2 == position_3 && position_taken?(board,win_index_0)
-      return win_combo
+       pls = win_combo
+       pls
     end
   end
   return false
@@ -63,9 +64,8 @@ end
 
 
 def winner?(board)
-  xo = won?(board)
   if won?(board)
-    xo[0]
+
   else
     nil
   end
