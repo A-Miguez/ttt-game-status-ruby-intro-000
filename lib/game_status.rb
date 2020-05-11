@@ -63,9 +63,9 @@ end
 
 
 def winner?(board)
-    if over?(board)
-      board[0]
-    else
-      nil
-    end
+  if over?(board)
+    board[0]    
+  else
+    nil
   end
+end
