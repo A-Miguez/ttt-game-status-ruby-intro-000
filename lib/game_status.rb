@@ -65,7 +65,7 @@ end
 
 def winner?(board)
   if won?(board)
-
+    pls[0]
   else
     nil
   end
